@@ -8947,7 +8947,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	-moz-border-radius: 0;
 	color: #fff;
 	font-size: 14px;
-	padding: 38px 10px;
+	padding: 38px 30px;
 	cursor: pointer;
 	margin: -10px 0;
 
@@ -9027,7 +9027,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	color:#000;
 	display: block;
 	font-size: 13px;
-	padding: 10px 20px;
+	padding: 5px 20px;
 }
 
 .header-nav .nav>li .sub-menu li a:hover {
@@ -9372,7 +9372,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 @media screen and (min-width:768px){
 	.header-nav.nav-animation .nav>li>ul.sub-menu li>a{
-		font-size: 25px;
+		font-size: 20px;
 	}
 }
 
@@ -9492,7 +9492,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .header-style-2 .header-nav .nav > li > a:hover {color:#ff5e15;}
 @media screen and (min-width:768px){
 	.header-style-2 .header-nav .nav > li > a{
-		    font-size: 25px;
+		    font-size: 20px;
 	}
 }
 .header-style-2 .header-nav-request{float:right;}
