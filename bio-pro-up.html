@@ -151,25 +151,73 @@
                 <ul class="nav navbar-nav">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li>
-                    <a href="javascript:;">Our Products</a>
-                    <ul class="sub-menu">
-                      <li><a href="bio-eggmin.html">Bio-Eggmin</a></li>
-                      <li><a href="bio-mitraz.html">Bio-Mitraz</a></li>
-                      <li><a href="calcitron.html">Calcitron Advance </a></li>
-                      <li><a href="gut-o-clix.html">Gut-O-Clix </a></li>
-                      <li><a href="toxyclix-plus.html">Toxyclix-Plus </a></li>
-                      <li><a href="biorid-pfs.html">Biorid-PFS </a></li>
-                      <li><a href="bio-vital.html">Bio-Vital</a></li>
-                        <li><a href="bio-zigtox.html">Bio-Zigtox</a></li>
-                    <li><a href="bio-vit-e.html">Bio VIT E</a></li>
-                    <li><a href="bio-tymogard.html">Bio Tymogard</a></li>
-                    <li><a href="bio-vit-a.html">Bio VIT A</a></li>
-                    <li><a href="bio-tylon-10.html">Bio TYLON 10</a></li>
-                    <li><a href="bio-pro-up.html">BIO Pro UP</a></li>
-                    <li><a href="bio-fe-puls.html ">Bio Fe Puls</a></li>
-                    </ul>
-                  </li>
+                                       <li class="dropdown-parent">
+  <a href="javascript:;">Our Products</a>
+  <ul class="sub-menu">
+    <div class="menu-columns">
+      <div class="column">
+        <li><a href="bio-eggmin.html">Bio-Eggmin</a></li>
+        <li><a href="bio-mitraz.html">Bio-Mitraz</a></li>
+        <li><a href="calcitron.html">Calcitron Advance</a></li>
+        <li><a href="gut-o-clix.html">Gut-O-Clix</a></li>
+        <li><a href="toxyclix-plus.html">Toxyclix-Plus</a></li>
+        <li><a href="biorid-pfs.html">Biorid-PFS</a></li>
+        <li><a href="bio-vital.html">Bio-Vital</a></li>
+      </div>
+      <div class="column">
+        <li><a href="bio-zigtox.html">Bio-Zigtox</a></li>
+        <li><a href="bio-vit-e.html">Bio VIT E</a></li>
+        <li><a href="bio-tymogard.html">Bio Tymogard</a></li>
+        <li><a href="bio-vit-a.html">Bio VIT A</a></li>
+        <li><a href="bio-tylon-10.html">Bio TYLON 10</a></li>
+        <li><a href="bio-pro-up.html">BIO Pro UP</a></li>
+        <li><a href="bio-fe-puls.html">Bio Fe Puls</a></li>
+      </div>
+    </div>
+  </ul>
+</li>
+
+<style>
+.sub-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #fff;
+  width: 500px !important ;
+}
+
+.menu-columns {
+  display: block;
+}
+
+.menu-columns .column {
+  width: 100%;
+  display: block;
+}
+
+/* Desktop view: two columns */
+@media (min-width: 992px) {
+  .menu-columns {
+    display: flex;
+    gap: 20px;
+    width: auto  ;
+    padding: 15px;
+  }
+
+  .menu-columns .column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-menu {
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+</style>
                   <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
@@ -191,7 +239,8 @@
             <div class="wt-bnr-inr-entry">
               <div class="banner-title-outer">
                 <div class="banner-title-name">
-                  <h2 class="site-text-primary">Bio Zigtox-P</h2>
+                  <h2 class="site-text-primary">BIO
+PRO-UP</h2>
                 </div>
               </div>
               <!-- BREADCRUMB ROW -->
@@ -199,7 +248,8 @@
               <div>
                 <ul class="wt-breadcrumb breadcrumb-style-2">
                   <li><a href="index.html">Home</a></li>
-                  <li>Bio Zigtox-P</li>
+                  <li>BIO
+PRO-UP</li>
                 </ul>
               </div>
 
@@ -281,19 +331,19 @@
                 <div class="product-detail-info bg-gray p-a30">
                   <div class="wt-product-title">
                     <h2 class="post-title">
-                      <a href="javascript:void(0);">Bio Zigtox-P</a>
+                      <a href="javascript:void(0);">BIO
+PRO-UP</a>
                     </h2>
                   </div>
                   <div class="wt-product-text">
                     <p>
-                      Liver Protected with Potent Phytogenic
-Hepatoboosters
+                     Sure Shot Solution for Increase Egg Production
+& Ovary Health
                     </p>
                     <p>
-                      <b>Bio Zigtox-P</b>  is a powerful herbal liver tonic designed to protect the liver from
-toxic damage and improve its overall efficiency. With potent antioxidants and
-hepatoprotective herbs, it enhances liver regeneration, digestion, immunity, and
-metabolism—vital for maintaining poultry health and productivity.
+                      <b>Bio Pro-UP </b>is a natural feed additive designed to increase egg production in laying
+birds. Its plays a pivotal role in maintaining the ovary health and quality egg
+production in laying birds
                     </p>
                   </div>
                 </div>
@@ -324,14 +374,16 @@ metabolism—vital for maintaining poultry health and productivity.
                       <div class="p-a10">
                         <ul class="site-list-style-two m-b0">
                           <li>
-                           Protects liver from toxins, viruses, and alcohol-induced damage
+                           Helps to stimulate ovaries & increase egg production
                           </li>
                           <li>
-                           Enhances liver function & promotes regeneration
+                         Helps peak production to maintain for longer periods
                           </li>
-                          <li>Improves digestion, metabolism, and feed intake</li>
-                          <li>Boosts body strength, immunity & productivity.</li>
-                          <li>Extends shelf life of birds</li>
+                          <li>Avoid post peak drop in egg production</li>
+                          <li>Helps for getting high quality egg with well-balanced albumin, yolk content &
+uniformity.</li>
+                          <li>Increase fertility, hatchability in breeders</li>
+                          <li>Increase calcium availability to good extent and quality</li>
                           <!-- <li>
                             Provides the essential micro mineral
                             supplementation.
@@ -348,71 +400,21 @@ metabolism—vital for maintaining poultry health and productivity.
                       </div>
                     </div>
                     <div id="graphic-design-19" class="tab-pane">
-                      <table
-                        class="table m-b0 table-striped col-lg-6 col-md-6 col-sm-12"
-                      >
-                        <tr>
-                          <td><b>Amla </b></td>
-                          <td>25 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Arjuna </b></td>
-                          <td>17.5 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Arni </b></td>
-                          <td>25 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Bhringraj </b></td>
-                          <td>375 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Bhulamla</b></td>
-                          <td>375 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Biranjasi </b></td>
-                          <td>10 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Chitrak </b></td>
-                          <td>75 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Daruharidra </b></td>
-                          <td>100 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Gokhru </b></td>
-                          <td>35 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Guduch </b></td>
-                          <td>150 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Haritak </b></td>
-                          <td>75 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Jhau </b></td>
-                          <td>100 mg</td>
-                        </tr>
-                        <tr>
-                          <td><b>Daruharidra </b></td>
-                          <td>100 mg</td>
-                        </tr>
-                      </table>
+                     <p>Nutrients, Minerals, Vitamins, Enzymes, Prebiotics, Yeast Complex, Organic Chromium, Zinc antioxidants, Organic acids, Herbal extracts</p>
                     </div>
                     <div id="developement-19" class="tab-pane">
                       <div class="wt-product-text">
                         <p>
-                          <b>Chicks:</b> 10–15 ml / 100 birds.
+                          <b>Layer (Pre Lay) from 15th week
+onwards:</b>500 gms to 1.0 kg per ton of
+feed minimum 03 Weeks for
+continuous use
                         </p>
-                        <p><b>Broiler/Layer:</b> 15–20 ml / 100 birds.</p>
-                        <p><b>Breeder:</b> 20–25 ml / 100 birds.</p>
-                        <p>(Or as directed by a vet/poultry consultant)</p>
+                        <p><b>Breeder:</b> 1–2 kg per ton of feed or as per
+direction of veterinarian/poultry
+consultan.</p>
+                        <!-- <p><b>Breeder:</b> 20–25 ml / 100 birds.</p>
+                        <p>(Or as directed by a vet/poultry consultant)</p> -->
                         <!-- <p>
                           <b>As a performance booster:</b> Add 250g per ton of
                           feed (as top dressing)

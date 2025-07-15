@@ -151,25 +151,73 @@
                 <ul class="nav navbar-nav">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li>
-                    <a href="javascript:;">Our Products</a>
-                    <ul class="sub-menu">
-                      <li><a href="bio-eggmin.html">Bio-Eggmin</a></li>
-                      <li><a href="bio-mitraz.html">Bio-Mitraz</a></li>
-                      <li><a href="calcitron.html">Calcitron Advance </a></li>
-                      <li><a href="gut-o-clix.html">Gut-O-Clix </a></li>
-                      <li><a href="toxyclix-plus.html">Toxyclix-Plus </a></li>
-                      <li><a href="biorid-pfs.html">Biorid-PFS </a></li>
-                      <li><a href="bio-vital.html">Bio-Vital</a></li>
-                        <li><a href="bio-zigtox.html">Bio-Zigtox</a></li>
-                    <li><a href="bio-vit-e.html">Bio VIT E</a></li>
-                    <li><a href="bio-tymogard.html">Bio Tymogard</a></li>
-                    <li><a href="bio-vit-a.html">Bio VIT A</a></li>
-                    <li><a href="bio-tylon-10.html">Bio TYLON 10</a></li>
-                    <li><a href="bio-pro-up.html">BIO Pro UP</a></li>
-                    <li><a href="bio-fe-puls.html ">Bio Fe Puls</a></li>
-                    </ul>
-                  </li>
+                                         <li class="dropdown-parent">
+  <a href="javascript:;">Our Products</a>
+  <ul class="sub-menu">
+    <div class="menu-columns">
+      <div class="column">
+        <li><a href="bio-eggmin.html">Bio-Eggmin</a></li>
+        <li><a href="bio-mitraz.html">Bio-Mitraz</a></li>
+        <li><a href="calcitron.html">Calcitron Advance</a></li>
+        <li><a href="gut-o-clix.html">Gut-O-Clix</a></li>
+        <li><a href="toxyclix-plus.html">Toxyclix-Plus</a></li>
+        <li><a href="biorid-pfs.html">Biorid-PFS</a></li>
+        <li><a href="bio-vital.html">Bio-Vital</a></li>
+      </div>
+      <div class="column">
+        <li><a href="bio-zigtox.html">Bio-Zigtox</a></li>
+        <li><a href="bio-vit-e.html">Bio VIT E</a></li>
+        <li><a href="bio-tymogard.html">Bio Tymogard</a></li>
+        <li><a href="bio-vit-a.html">Bio VIT A</a></li>
+        <li><a href="bio-tylon-10.html">Bio TYLON 10</a></li>
+        <li><a href="bio-pro-up.html">BIO Pro UP</a></li>
+        <li><a href="bio-fe-puls.html">Bio Fe Puls</a></li>
+      </div>
+    </div>
+  </ul>
+</li>
+
+<style>
+.sub-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background: #fff;
+  width: 500px !important ;
+}
+
+.menu-columns {
+  display: block;
+}
+
+.menu-columns .column {
+  width: 100%;
+  display: block;
+}
+
+/* Desktop view: two columns */
+@media (min-width: 992px) {
+  .menu-columns {
+    display: flex;
+    gap: 20px;
+    width: auto  ;
+    padding: 15px;
+  }
+
+  .menu-columns .column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-menu {
+    position: absolute;
+    z-index: 99;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+</style>
                   <li><a href="contact.html">Contact Us</a></li>
                 </ul>
               </div>
